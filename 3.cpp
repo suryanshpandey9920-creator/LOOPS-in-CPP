@@ -17,8 +17,11 @@ int main(){
 
         for (int j=0; j<=i; j++){   
 
-            n-i;  // everytime the loop run the value of N is get subtracted by I,
-                //   n=1, i=0  1-0= 1, for 1st line , same logic for all lines till n.
+            n-i;  // Inner loop will print (*) n-i times in each row 
+                  //   1st row -> n-0
+                  //   2nd row -> n-1 
+                  //   3rd row -> n-2
+                  //  for all the row's 
 
             cout << "* ";
         }
