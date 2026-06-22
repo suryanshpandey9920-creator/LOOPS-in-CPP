@@ -12,7 +12,8 @@ int main() {
     for (int i = 0 ; i <= n-1 ; i++){   // Outer Loop
         for (int j = i+1 ; j > 0; j--){  // Inner Loop contaun reverse loop properties 
             cout << count << " ";
-            count++;
+
+            count++;  // Printing the COUNT variable in every row
         }
         cout << endl;
     }
