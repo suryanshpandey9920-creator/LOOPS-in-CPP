@@ -15,7 +15,7 @@ int main(){
     //  used the for loop 
     for (int i = 1; i<=n; i++){
         // everytime the loop repeate then 
-        // it will add or assign the value of I to sum variable 
+        // it will  assign the value of I to sum variable 
 
         sum+=i;
         
